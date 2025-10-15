@@ -1,0 +1,39 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagen {
+    margin: auto;
+    width: 700px;
+    height: 400px;
+}
+
+#container {
+    text-align: center;
+}
+
+#botones {
+     display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    padding: 15px 0;
+    background: #627fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+.blur {
+    filter: blur(10px);
+}
+
+.bn {
+    filter: grayscale(100%);
+}
+
+.rot {
+    transform: rotate(10deg) scale(1.2);
+    
+}
