@@ -1,0 +1,502 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fondo{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 10%;
+  left: 10%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.personaje{
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  object-fit: cover;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.personaje2{
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  object-fit: cover;
+  top: 50%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+.enemigo{
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  object-fit: cover;
+  top: 60%;
+  left: 70%;
+  transition: all 0.3s ease;
+}
+.enemigo2{
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transition: all 0.3s ease;
+}
+.enemigo3{
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  object-fit: cover;
+  top: 70%;
+  left: 45%;
+  transition: all 0.3s ease;
+}
+
+.barra{
+  position: absolute;
+  width: 30%;
+  height: 35%;
+  top: 3%;
+  left: 10%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.moneda1{
+  position: absolute;
+  width: 5%;
+  height: 7%;
+  object-fit: cover;
+  top: 40%;
+  left: 35%;
+  transition: all 0.3s ease;
+}
+
+.moneda2{
+  position: absolute;
+  width: 5%;
+  height: 7%;
+  object-fit: cover;
+  top: 35%;
+  left: 60%;
+  transition: all 0.3s ease;
+}
+
+.moneda3{
+  position: absolute;
+  width: 5%;
+  height: 7%;
+  object-fit: cover;
+  top: 30%;
+  left: 75%;
+  transition: all 0.3s ease;
+}
+
+.monedaBarra{
+  position: absolute;
+  width: 3%;
+  height: 4%;
+  object-fit: cover;
+  top: 20%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.calabera{
+  position: absolute;
+  width: 3%;
+  height: 4%;
+  object-fit: cover;
+  top: 20%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.contador{
+  position: absolute;
+  top: 18%;
+  left: 23%;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+.vidas{
+  position: absolute;
+  top: 18%;
+  left: 33%;
+  font-size: 2rem;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
+.saltar{
+  animation: salto 3s ease forwards;
+}
+
+@keyframes salto {
+  0% { transform: translateY(0); opacity: 1; }
+  30% { transform: translateY(-60px); }
+  100% { transform: translateY(0); opacity:0;}
+}
+
+.infinite{
+  animation: infinite 3s infinite;
+}
+
+@keyframes infinite {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes enemigoMove {
+  0% { left: 80%; }
+  100% { left: 15%; }
+}
+
+.enemi{
+  animation: enemigoMove 2s linear infinite;
+}
+
+/* -------------------------------------------------------------*/
+
+.escenario2{
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 100%;
+  left: 10%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.grada{
+  position: absolute;
+  width: 50%;
+  height: 35%;
+  object-fit: cover;
+  top: 102%;
+  left: 28%;
+  transition: all 0.3s ease;
+  animation: gradaMove 3s infinite;
+}
+
+@keyframes gradaMove {
+  0% { transform: translateX(0); opacity: 1; }
+  30% { transform: translateX(-60px); }
+  100% { transform: translateX(0); opacity:1;}
+}
+
+.balon{
+  position: absolute;
+  width: 5%;
+  height: 8%;
+  object-fit: cover;
+  top: 150%;
+  left: 50%;
+  transition: all 0.3s ease;
+  animation: infinite 3s infinite;
+}
+
+.balon2{
+  position: absolute;
+  width: 5%;
+  height: 8%;
+  object-fit: cover;
+  top: 150%;
+  left: 30%;
+  transition: all 0.3s ease;
+  animation: infinite 3s infinite;
+}
+
+.balon3{
+  position: absolute;
+  width: 5%;
+  height: 8%;
+  object-fit: cover;
+  top: 160%;
+  left: 40%;
+  transition: all 0.3s ease;
+  animation: infinite 3s infinite;
+} 
+.manzana{
+  position: absolute;
+  width: 5%;
+  height: 8%;
+  object-fit: cover;
+  top: 115%;
+  left: 15%;
+  transition: all 0.3s ease;
+}
+.manzana2{
+  position: absolute;
+  width: 5%;
+  height: 8%;
+  object-fit: cover;
+  top: 115%;
+  left: 80%;
+  transition: all 0.3s ease;
+}
+
+.manzana3{
+  position: absolute;
+  width: 5%;
+  height: 8%;
+  object-fit: cover;
+  top: 130%;
+  left: 80%;
+  transition: all 0.3s ease;
+}
+
+.arco{
+  position: absolute;
+  width: 25%;
+  height: 45%;
+  object-fit: cover;
+  top: 140%;
+  left: 74%;
+  transition: all 0.3s ease;
+}
+
+.cr7{
+  position: absolute;
+  width: 15%;
+  height: 35%;
+  object-fit: cover;
+  top: 140%;
+  left: 10%;
+  transition: all 0.3s ease;
+}
+
+.dibu{
+  position: absolute;
+  width: 22%;
+  height: 35%;
+  object-fit: cover;
+  top: 140%;
+  left: 65%;
+  transition: all 0.3s ease;
+}
+
+.contadorBalon{
+  position: absolute;
+  width: 2%;
+  height: 4%;
+  object-fit: cover;
+  top: 105%;
+  left: 12%;
+  transition: all 0.3s ease;
+}
+
+.contadorBalones{
+  position: absolute;
+  top: 105%;
+  left: 15%;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
+.contadorManzana{
+  position: absolute;
+  width: 2%;
+  height: 4%;
+  object-fit: cover;
+  top: 110%;
+  left: 12%;
+  transition: all 0.3s ease;
+} 
+
+.contadorManzanas{
+  position: absolute;
+  top: 110%;
+  left: 15%;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+/* ----------------------------------------- */
+
+.escenario3 {
+   position: absolute;
+  width: 80%;
+  height: 80%;
+  object-fit: cover;
+  z-index: -1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 190%;
+  left: 10%;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+}
+
+.jugador{
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  object-fit: cover;
+  top: 250%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  transition: all 0.3s ease;
+}
+
+.guardia{
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  object-fit: cover;
+  top: 240%;
+  left: 75%;
+  transition: all 0.3s ease;
+}
+
+.guardia2{
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  object-fit: cover;
+  top: 240%;
+  left: 55%;
+  transition: all 0.3s ease;
+}
+
+.guardia3{
+  position: absolute;
+  width: 10%;
+  height: 30%;
+  object-fit: cover;
+  top: 240%;
+  left: 65%;
+  transition: all 0.3s ease;
+}
+
+.muneca{
+  position: absolute;
+  width: 30%;
+  height: 60%;
+  object-fit: cover;
+  top: 200%;
+  left: 33%;
+  transition: all 0.3s ease;
+  animation: munecaMove 3s linear infinite;
+}
+
+@keyframes munecaMove {
+  0% { left: 28%; }
+  100% { left: 40%; }
+}
+
+
+.galleta{
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  object-fit: cover;
+  top: 210%;
+  left: 60%;
+  transition: all 0.3s ease;
+  animation: galletaSpin 3s linear infinite;
+}
+
+.galleta2{
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  object-fit: cover;
+  top: 220%;
+  left: 70%;
+  transition: all 0.3s ease;
+  animation: galletaSpin 3s linear infinite;
+}
+
+.galleta3{
+  position: absolute;
+  width: 5%;
+  height: 10%;
+  object-fit: cover;
+  top: 210%;
+  left: 80%;
+  transition: all 0.3s ease;
+  animation: galletaSpin 3s linear infinite;
+}
+
+@keyframes galletaSpin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.squidBarra{
+  position: absolute;
+  width: 20%;
+  height: 10%;
+  object-fit: cover;
+  top: 191%;
+  left: 10%;
+  transition: all 0.3s ease;
+}
+
+.iconoG{
+  position: absolute;
+  width: 3%;
+  height: 5%;
+  object-fit: cover;
+  top: 193%;
+  left: 11%;
+  transition: all 0.3s ease;
+}
+
+.contadorSquid{
+  position: absolute;
+  top: 194%;
+  left: 15%;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.iconoF{
+  position: absolute;
+  width: 3%;
+  height: 5%;
+  object-fit: cover;
+  top: 193%;
+  left: 18%;
+  transition: all 0.3s ease;
+}
+.contadorF{
+  position: absolute;
+  top: 194%;
+  left: 22%;
+  font-size: 1.5rem;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
