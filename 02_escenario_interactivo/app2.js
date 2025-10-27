@@ -67,3 +67,8 @@ galletas.forEach(galleta => {
         contadorF.textContent = parseInt(contadorF.textContent) + 1;
     });
 });
+
+
+
+
+
