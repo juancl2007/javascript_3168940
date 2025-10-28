@@ -6,6 +6,7 @@ const contador = document.querySelector('.contador');
 
 let counter = 0;
 
+
 enemigos.forEach(item => {
 
     item.addEventListener('click', () => {
@@ -68,7 +69,42 @@ galletas.forEach(galleta => {
     });
 });
 
+const escenas = document.querySelectorAll('.escena');
+const siguienteBtn = document.querySelector('.siguiente');
+const anteriorBtn = document.querySelector('.anterior');
+const miniaturas = document.querySelectorAll('.miniatura');
 
+function mostrarEscenas(i) {
+for (let j = 0; j < escenas.length; j++) {
+    escenas[j].classList.remove('activa');
 
+}
+ escenas[i].classList.add('activa');
 
+    indice = i;
+
+}
+mostrarEscenas(0);
+
+anteriorBtn.addEventListener('click', () => {
+    indice = indice - 1;
+    if (indice < 0) {
+        indice = escenas.length - 1;
+    }
+    mostrarEscenas(indice);
+});
+
+siguienteBtn.addEventListener('click', () => {
+    indice = indice + 1;
+    if (indice >= escenas.length) {
+        indice = 0;
+    }
+    mostrarEscenas(indice);
+});
+
+miniaturas.forEach((miniatura, i) => {
+    miniatura.addEventListener('click', () => {
+        mostrarEscenas(i);
+    });
+});
 

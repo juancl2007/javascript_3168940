@@ -190,7 +190,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  top: 100%;
+  top: 10%;
   left: 10%;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -201,7 +201,7 @@
   width: 50%;
   height: 35%;
   object-fit: cover;
-  top: 102%;
+  top: 12%;
   left: 28%;
   transition: all 0.3s ease;
   animation: gradaMove 3s infinite;
@@ -218,7 +218,7 @@
   width: 5%;
   height: 8%;
   object-fit: cover;
-  top: 150%;
+  top: 60%;
   left: 50%;
   transition: all 0.3s ease;
   animation: infinite 3s infinite;
@@ -229,7 +229,7 @@
   width: 5%;
   height: 8%;
   object-fit: cover;
-  top: 150%;
+  top: 60%;
   left: 30%;
   transition: all 0.3s ease;
   animation: infinite 3s infinite;
@@ -240,7 +240,7 @@
   width: 5%;
   height: 8%;
   object-fit: cover;
-  top: 160%;
+  top: 60%;
   left: 40%;
   transition: all 0.3s ease;
   animation: infinite 3s infinite;
@@ -250,7 +250,7 @@
   width: 5%;
   height: 8%;
   object-fit: cover;
-  top: 115%;
+  top: 20%;
   left: 15%;
   transition: all 0.3s ease;
 }
@@ -259,7 +259,7 @@
   width: 5%;
   height: 8%;
   object-fit: cover;
-  top: 115%;
+  top: 15%;
   left: 80%;
   transition: all 0.3s ease;
 }
@@ -269,7 +269,7 @@
   width: 5%;
   height: 8%;
   object-fit: cover;
-  top: 130%;
+  top: 35%;
   left: 80%;
   transition: all 0.3s ease;
 }
@@ -279,7 +279,7 @@
   width: 25%;
   height: 45%;
   object-fit: cover;
-  top: 140%;
+  top: 40%;
   left: 74%;
   transition: all 0.3s ease;
 }
@@ -289,7 +289,7 @@
   width: 15%;
   height: 35%;
   object-fit: cover;
-  top: 140%;
+  top: 40%;
   left: 10%;
   transition: all 0.3s ease;
 }
@@ -299,24 +299,24 @@
   width: 22%;
   height: 35%;
   object-fit: cover;
-  top: 140%;
+  top: 40%;
   left: 65%;
   transition: all 0.3s ease;
 }
 
 .contadorBalon{
   position: absolute;
-  width: 2%;
+  width: 3%;
   height: 4%;
   object-fit: cover;
-  top: 105%;
-  left: 12%;
+  top: 17%;
+  left: 11%;
   transition: all 0.3s ease;
 }
 
 .contadorBalones{
   position: absolute;
-  top: 105%;
+  top: 17%;
   left: 15%;
   font-size: 1.5rem;
   color: black;
@@ -324,17 +324,17 @@
 }
 .contadorManzana{
   position: absolute;
-  width: 2%;
+  width: 3%;
   height: 4%;
   object-fit: cover;
-  top: 110%;
-  left: 12%;
+  top: 11%;
+  left: 11%;
   transition: all 0.3s ease;
 } 
 
 .contadorManzanas{
   position: absolute;
-  top: 110%;
+  top: 11%;
   left: 15%;
   font-size: 1.5rem;
   color: black;
@@ -352,7 +352,7 @@
   justify-content: center;
   align-items: center;
   display: flex;
-  top: 190%;
+  top: 10%;
   left: 10%;
   border-radius: 20px;
   box-shadow: 0 0 20px rgba(0,0,0,0.5);
@@ -363,7 +363,7 @@
   width: 10%;
   height: 30%;
   object-fit: cover;
-  top: 250%;
+  top: 65%;
   left: 20%;
   transform: translate(-50%, -50%);
   transition: all 0.3s ease;
@@ -374,7 +374,7 @@
   width: 10%;
   height: 30%;
   object-fit: cover;
-  top: 240%;
+  top: 50%;
   left: 75%;
   transition: all 0.3s ease;
 }
@@ -384,7 +384,7 @@
   width: 10%;
   height: 30%;
   object-fit: cover;
-  top: 240%;
+  top: 50%;
   left: 55%;
   transition: all 0.3s ease;
 }
@@ -394,7 +394,7 @@
   width: 10%;
   height: 30%;
   object-fit: cover;
-  top: 240%;
+  top: 50%;
   left: 65%;
   transition: all 0.3s ease;
 }
@@ -404,7 +404,7 @@
   width: 30%;
   height: 60%;
   object-fit: cover;
-  top: 200%;
+  top: 15%;
   left: 33%;
   transition: all 0.3s ease;
   animation: munecaMove 3s linear infinite;
@@ -421,7 +421,7 @@
   width: 5%;
   height: 10%;
   object-fit: cover;
-  top: 210%;
+  top: 21%;
   left: 60%;
   transition: all 0.3s ease;
   animation: galletaSpin 3s linear infinite;
@@ -432,7 +432,7 @@
   width: 5%;
   height: 10%;
   object-fit: cover;
-  top: 220%;
+  top: 25%;
   left: 70%;
   transition: all 0.3s ease;
   animation: galletaSpin 3s linear infinite;
@@ -443,7 +443,7 @@
   width: 5%;
   height: 10%;
   object-fit: cover;
-  top: 210%;
+  top: 21%;
   left: 80%;
   transition: all 0.3s ease;
   animation: galletaSpin 3s linear infinite;
@@ -459,7 +459,7 @@
   width: 20%;
   height: 10%;
   object-fit: cover;
-  top: 191%;
+  top: 11%;
   left: 10%;
   transition: all 0.3s ease;
 }
@@ -469,14 +469,14 @@
   width: 3%;
   height: 5%;
   object-fit: cover;
-  top: 193%;
+  top: 14%;
   left: 11%;
   transition: all 0.3s ease;
 }
 
 .contadorSquid{
   position: absolute;
-  top: 194%;
+  top: 14%;
   left: 15%;
   font-size: 1.5rem;
   color: black;
@@ -488,14 +488,14 @@
   width: 3%;
   height: 5%;
   object-fit: cover;
-  top: 193%;
-  left: 18%;
+  top: 14%;
+  left: 19%;
   transition: all 0.3s ease;
 }
 .contadorF{
   position: absolute;
-  top: 194%;
-  left: 22%;
+  top: 14%;
+  left: 24%;
   font-size: 1.5rem;
   color: black;
   font-family: 'Arial', sans-serif;
@@ -506,15 +506,21 @@
   width: 100%;
   height: 100vh;
   overflow: hidden;
-}
-.escena{
+} 
+
+
+/* .escena{
   position: absolute;
   width: 100%;
   height: 100%;
   top: 0;
   left: 0;
   transition: all 0.5s ease;
-}
+} */
+
+.escena { display: none; }
+.activa { display: block; }
+
 .minuaturas{
   position: absolute;
   bottom: 5%;
@@ -541,7 +547,7 @@
 
 .siguiente{
   position: absolute;
-  top: 50%;
+  top: 40%;
   right: 20px;
   transform: translateY(-50%);
   font-size: 2rem;
@@ -561,7 +567,7 @@
 
 .anterior{
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 20px;
   transform: translateY(-50%);
   font-size: 2rem;
