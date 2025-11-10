@@ -12,7 +12,7 @@ let comic = {
       "personjes": ["rodolfo","abuela"],
       "portada": "imagenes/capitulo1.jpg",
       "descripcion": [ 
-      "el capitulo narra el nacimiento de rodolfo donde descubre su pasion por la musica y como su abuela lo inspira a seguir sus sueños." ;
+      "el capitulo narra el nacimiento de rodolfo donde descubre su pasion por la musica y como su abuela lo inspira a seguir sus sueños." ,
       ]
     }, 
     {
@@ -21,18 +21,18 @@ let comic = {
       "personjes": ["rodolfo","bandas famosas"],
       "portada": "imagenes/capitulo2.jpg",
       "descripcion": [ 
-        "el capitulo explora la carrera musical de rodolfo, sus desafios y como su voz se convierte en un simbolo de epoca decembrina para muchos." ;
+      "el capitulo explora la carrera musical de rodolfo, sus desafios y como su voz se convierte en un simbolo de epoca decembrina para muchos." ,
         ]
     },
     {
       "id": 3,
       "nombre": "Un legado que trasciende generaciones",
-      "personjes": "rodolfo","mateo",
+      "personjes": ["rodolfo","mateo"] ,
       "portada": "imagenes/capitulo3.jpg",
-      "descripcion": [
-      "el capitulo final muestra el legado que dejo rodolfo cuando murio"
-      "mateo un joven de 17 años encuentra una casetera vieja en el atico de su abuelo y ahi
-       "descubre la musica de rodolfo inspirandose en su historia decide seguir sus pasos y llevar su legado adelante." ;
+      "descripcion": [ ,
+      "el capitulo final muestra el legado que dejo rodolfo cuando murio",
+      "mateo un joven de 17 años encuentra una casetera vieja en el atico de su abuelo y ahi" ,
+      "descubre la musica de rodolfo inspirandose en su historia decide seguir sus pasos y llevar su legado adelante." ,
      ] 
     }
  ]

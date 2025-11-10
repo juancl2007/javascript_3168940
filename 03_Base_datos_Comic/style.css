@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #ff0000;
+}
+a {
+    color: #00ccff;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+.contedor { 
+    margin: auto;
+    width: 80px;
+    max-width: 1300px;
+}
+.titulo1 {
+    font-size: 80px;
+    margin: 20px;
+    margin-top: 200px;
+    position: relative;
+    z-index: 1;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.fondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    z-index: -1;
+    opacity: 0.6;
+}
+.capitulos {
+    background-color: #1a1a1a;
+    opacity: 0.9;
+    padding: 100px;
+    margin: 0%;
+    margin-top: 100px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+.cap1, .cap2, .cap3 {
+    flex: 1;
+    margin: 10px;
+}
+.capitulos img {
+    width: 300px;
+    height: 400px;
+    border-radius: 8px;
+}
+button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #cc0000;
+}
+button:active {
+    background-color: #990000;
+}
+.personajes {
+    background-color: #1a1a1a;
+    opacity: 0.9;
+    padding: 50px;
+    margin: 50px;
+    border-radius: 8px;
+    display: flex;
+}
+.imagenesPersonajes {
+    width: 200px;
+    height: 250px;
+    border-radius: 8px;
+    margin: 10px;
+}
