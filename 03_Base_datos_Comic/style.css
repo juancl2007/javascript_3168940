@@ -15,25 +15,74 @@ a {
 a:hover {
     text-decoration: underline;
 }
+html {
+    scroll-behavior: smooth;
+}
 .contenedor { 
     margin: auto;
     width: 80%;
     height: auto;
     max-width: 1300px;
 }
+.logo {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #fafafa6e;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a {
+    color: rgb(61, 58, 58);
+    font-size: 30px;
+    padding: 0px 100px;
+}
+
+nav ul li a:hover {
+    color: #ff0000;
+}
+
 .titulo1 {
     font-size: 80px;
-    margin: 20px;
+    margin: 0px;
     margin-top: 200px;
     position: relative;
     z-index: 1;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 p {
-    font-size: 16px;
+    font-size: 20px;
     line-height: 1.5;
     margin: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.comienza {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    position: relative;
+    z-index: 1;
+    margin: 60px;
+    margin-left: 40%;
 }
 
 .fondo {
@@ -115,4 +164,42 @@ button:active {
     border-radius: 8px;
     margin: 10px;
 }
-
+footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media screen and (max-width: 768px) {
+    .personajes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .capitulos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .fondo {
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 480px) {
+    .titulo1 {
+        font-size: 50px;
+        margin-top: 150px;
+    }
+    .TituloPersonajes {
+        font-size: 30px;
+        margin-top: 50px;
+    }
+    .capitulos img {
+        width: 200px;
+        height: 300px;
+    }
+    .imagenesPersonajes {
+        width: 150px;
+        height: 200px;
+    }
+}
