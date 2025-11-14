@@ -4,7 +4,7 @@ let comic = {
   "genero": "historia",
   "sipnosis": "Super tower",
   "autores": "Juan lopez, juan polo, daniel hicapie",
-  "portadaComic": "imagenes/portada1.jpg",
+  "portadaComic": "./fondo1.jpg",
   "año": 2025 [
     {
       "id": 1,
