@@ -1,4 +1,4 @@
-const tituloPrincipal = document.querySelector('.tituloPrincipal');
+/* const tituloPrincipal = document.querySelector('.tituloPrincipal');
 
 console.log(tituloPrincipal)
 
@@ -15,3 +15,4 @@ tituloPrincipal.innerHTML = `
     <button class="comienza">Comienza la Historia</button>
 `
 
+ */
