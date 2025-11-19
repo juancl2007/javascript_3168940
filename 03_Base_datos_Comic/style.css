@@ -145,7 +145,11 @@ button:active {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
 } 
-
+.parrafo {
+    text-align: center;
+    margin-bottom: 50px;
+    width: 205px;
+}
 
 .personajes {
     background-color: #1a1a1a;
@@ -158,6 +162,12 @@ button:active {
     width: 80%;
     max-width: 1300px;
 }
+
+.personajes-container {
+    display: flex;
+    gap: 10px;
+}
+
 .imagenesPersonajes {
     width: 200px;
     height: 250px;

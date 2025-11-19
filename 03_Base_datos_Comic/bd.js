@@ -9,20 +9,19 @@ let comic = {
   "año": 2025 ,
    "personajes": [
     {
-      "NombrePersonaje1": "Rodolfo Aicardi",
-      "descripcion": "Rodolfo Aicardi, cuyo nombre real es Marco Tulio Aicardi, es un icónico cantante colombiano conocido por su contribución a la música tropical, especialmente en los géneros de cumbia y porro. Nacido en Galeras, Sucre, Colombia, Rodolfo comenzó su carrera musical a una edad temprana y rápidamente se destacó por su voz distintiva y su carisma en el escenario. A lo largo de su carrera, lanzó numerosos éxitos que se convirtieron en clásicos de la música colombiana, ganándose el cariño del público y dejando un legado duradero en la industria musical del país.",
+      "NombrePersonaje": "Rodolfo Aicardi",
+      "descripcion": "Rodolfo Aicardi / Marco Tulio: Protagonista, cuya vida y legado musical se narran en el cómic.",
       "imagen": "./rodolfo.png"
     },
     {
-      "NombrePersonaje2": "Mateo",
-      "descripcion": "Mateo es un joven de 17 años que vive en Medellín y es un apasionado de la música. A lo largo de la historia, Mateo descubre un viejo casete que contiene las canciones de Rodolfo Aicardi, lo que lo lleva a explorar la vida y el legado del icónico cantante. Inspirado por la historia de Rodolfo, Mateo decide fusionar los ritmos tradicionales con sonidos modernos, creando una nueva forma de expresión musical que rinde homenaje al pasado mientras mira hacia el futuro.",
-      "imagen": "./mateoo.png"
-    },
-
-    {
-      "NombrePersonaje3": "Abuela de Rodolfo",
-      "descripcion": "La abuela de Rodolfo Aicardi es una figura maternal y sabia que desempeña un papel crucial en la vida del joven Marco Tulio. Ella es quien primero reconoce el talento musical de su nieto y lo anima a perseguir sus sueños en la música. Su apoyo incondicional y sus enseñanzas sobre la importancia de la cultura y las raíces musicales influyen profundamente en la formación artística de Rodolfo, ayudándolo a convertirse en el icónico cantante que llega a ser.",
+      "NombrePersonaje": "Abuela de Rodolfo",
+      "descripcion": "Abuela de Marco Tulio: Figura inspiradora en la niñez de Rodolfo, que lo motiva a seguir su pasión por la música.",
       "imagen": "./abuelaa.png"
+    },
+    {
+      "NombrePersonaje": "Mateo",
+      "descripcion": "Mateo: Adolescente moderno que descubre el legado de Rodolfo y lo lleva adelante fusionando estilos musicales.",
+      "imagen": "./mateoo.png"
     },
   ],
 
