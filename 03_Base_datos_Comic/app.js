@@ -1,6 +1,5 @@
 const personajes = document.querySelector('.personajes-container');
 
-
 console.log(comic.personajes)
 
 comic.personajes.forEach(char => {
@@ -14,4 +13,20 @@ comic.personajes.forEach(char => {
     personajes.appendChild(div);
 });
 
+const capitulos = document.querySelector('.capitulos');
+
+console.log(comic.capitulos)
+
+comic.capitulos.forEach(cap => {
+    //crear elementos dinamicamente con javascript
+    const div = document.createElement("div");
+    div.classList.add('cap1' , 'cap2' , 'cap3');
+    div.innerHTML = `
+        <h2>${cap.nombre}</h2>
+        <img src="${cap.portada}" alt="" class="imagenCapitulos">
+        <p>${cap.descripcion}</p>
+        <button>Ver capitulo</button>
+    `;
+    capitulos.appendChild(div);
+});
 

@@ -28,31 +28,29 @@ let comic = {
   "capitulos": [
     {
       "id": 1,
-      "nombre": "El nacimiento de un Eco musical",
+      "nombre": "CAPITULO 1: El nacimiento de un Eco musical",
       "personje": ["rodolfo","abuela"],
-      "portada": "imagenes/capitulo1.jpg",
+      "portada": "./cap1.png",
       "descripcion": [ 
-      "el capitulo narra el nacimiento de rodolfo donde descubre su pasion por la musica y como su abuela lo inspira a seguir sus sueños." ,
+      "El joven Marco Tulio (Rodolfo Aicardi) descubre su pasión por los sonidos en su pueblo natal, Galeras. A los 15 años se muda a Medellín para perseguir su sueño, donde se convierte en un ícono de la cumbia." ,
       ]
     }, 
     {
       "id": 2,
-      "nombre": "El alma detras de la voz inmortal",
+      "nombre": "CAPITULO 2: El alma detras de la voz inmortal",
       "personje": ["rodolfo","bandas famosas"],
-      "portada": "imagenes/capitulo2.jpg",
+      "portada": "./cap2.png",
       "descripcion": [ 
-      "el capitulo explora la carrera musical de rodolfo, sus desafios y como su voz se convierte en un simbolo de epoca decembrina para muchos." ,
+      "Rodolfo Aicardi se vuelve famoso y su voz se convierte en la banda sonora de las fiestas colombianas. Aunque disfrutaba del éxito, su música también era su refugio personal. A pesar de su muerte en 2007, su voz sigue viva." ,
         ]
     },
     {
       "id": 3,
-      "nombre": "Un legado que trasciende generaciones",
+      "nombre": "CAPITULO 3: Un legado que trasciende generaciones",
       "personje": ["rodolfo","mateo"] ,
-      "portada": "imagenes/capitulo3.jpg",
-      "descripcion": [ ,
-      "el capitulo final muestra el legado que dejo rodolfo cuando murio",
-      "mateo un joven de 17 años encuentra una casetera vieja en el atico de su abuelo y ahi" ,
-      "descubre la musica de rodolfo inspirandose en su historia decide seguir sus pasos y llevar su legado adelante." ,
+      "portada": "./cap3.png",
+      "descripcion": [ 
+      "Un adolescente, Mateo, encuentra un casete de Rodolfo Aicardi. Fascinado, aprende a tocar sus canciones, fusionando lo clásico con lo moderno. Al final, Mateo canta en una plaza, manteniendo vivo el legado del artista para una nueva generación." ,
      ] 
     }
  ]
