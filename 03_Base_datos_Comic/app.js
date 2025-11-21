@@ -30,3 +30,13 @@ comic.capitulos.forEach(cap => {
     capitulos.appendChild(div);
 });
 
+const imgenPortada = document.querySelector('.img');
+
+comic.imagenPortada.forEach(img => {
+    const div = document.createElement("div");
+    div.classList.add('fondo');
+    div.innerHTML = `
+        <img src="${img.imgenPortada}" alt="" class="fondo">    
+    `;
+    imgenPortada.appendChild(div);
+});
