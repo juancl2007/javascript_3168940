@@ -25,7 +25,7 @@ comic.capitulos.forEach(cap => {
         <h2>${cap.nombre}</h2>
         <img src="${cap.portada}" alt="" class="imagenCapitulos">
         <p>${cap.descripcion}</p>
-        <button>Ver capitulo</button>
+       <a href="capitulos.html"><button>Ver Capitulos</button></a>
     `;
     capitulos.appendChild(div);
 });
