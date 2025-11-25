@@ -9,6 +9,7 @@ comic.personajes.forEach(char => {
     div.innerHTML = `
         <img src="${char.imagen}" alt="" class="imagenesPersonajes">    
         <p>${char.descripcion}</p>
+        <a href="personajes.html"><button>Ver Personajes</button></a>
     `;
     personajes.appendChild(div);
 });
