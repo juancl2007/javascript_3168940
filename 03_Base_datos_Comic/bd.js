@@ -1,4 +1,4 @@
-let comic = {
+export let comic = {
   "nombrecomic": "Un legado que resuena en el presente",
   "numeroCapitulos": "3",
   "genero": "historia",
@@ -9,16 +9,19 @@ let comic = {
   "año": 2025 ,
    "personajes": [
     {
+      "id": 1,
       "NombrePersonaje": "Rodolfo Aicardi",
       "descripcion": "Rodolfo Aicardi / Marco Tulio: Protagonista, cuya vida y legado musical se narran en el cómic.",
       "imagen": "./rodolfo.png"
     },
     {
+      "id": 2,
       "NombrePersonaje": "Abuela de Rodolfo",
       "descripcion": "Abuela de Marco Tulio: Figura inspiradora en la niñez de Rodolfo, que lo motiva a seguir su pasión por la música.",
       "imagen": "./abuelaa.png"
     },
     {
+      "id": 3,
       "NombrePersonaje": "Mateo",
       "descripcion": "Mateo: Adolescente moderno que descubre el legado de Rodolfo y lo lleva adelante fusionando estilos musicales.",
       "imagen": "./mateoo.png"

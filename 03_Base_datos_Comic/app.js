@@ -1,3 +1,5 @@
+import { comic } from "./bd.js";
+
 const personajes = document.querySelector('.personajes-container');
 
 console.log(comic.personajes)
@@ -7,9 +9,11 @@ comic.personajes.forEach(char => {
     const div = document.createElement("div");
     div.classList.add('parrafo');
     div.innerHTML = `
+        <a href="personajes.html?=º${char.id}">
         <img src="${char.imagen}" alt="" class="imagenesPersonajes">    
         <p>${char.descripcion}</p>
         <a href="personajes.html"><button>Ver Personajes</button></a>
+        </a>
     `;
     personajes.appendChild(div);
 });
@@ -23,6 +27,7 @@ comic.capitulos.forEach(cap => {
     const div = document.createElement("div");
     div.classList.add('cap1' , 'cap2' , 'cap3');
     div.innerHTML = `
+        
         <h2>${cap.nombre}</h2>
         <img src="${cap.portada}" alt="" class="imagenCapitulos">
         <p>${cap.descripcion}</p>
@@ -31,13 +36,3 @@ comic.capitulos.forEach(cap => {
     capitulos.appendChild(div);
 });
 
-const imgenPortada = document.querySelector('.img');
-
-comic.imagenPortada.forEach(img => {
-    const div = document.createElement("div");
-    div.classList.add('fondo');
-    div.innerHTML = `
-        <img src="${img.imgenPortada}" alt="" class="fondo">    
-    `;
-    imgenPortada.appendChild(div);
-});
