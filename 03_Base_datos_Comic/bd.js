@@ -12,19 +12,32 @@ export let comic = {
       "id": 1,
       "NombrePersonaje": "Rodolfo Aicardi",
       "descripcion": "Rodolfo Aicardi / Marco Tulio: Protagonista, cuya vida y legado musical se narran en el cómic.",
-      "imagen": "./rodolfo.png"
+      "imagen": "./rodolfo.png",
+      "datos": {
+        "Biografía": "Biografia: Nació el 23 de mayo de 1946 y falleció el 24 de octubre de 2007.",
+        "Discografía": "Discografia: Incluye éxitos como 'La Colegiala', 'Cariñito' y 'Tabaco y Ron'.",
+        "Legado": "Legado: Considerado un ícono de la música tropical en Colombia, su música sigue siendo popular en fiestas y celebraciones.",
+      },
     },
     {
       "id": 2,
       "NombrePersonaje": "Abuela de Rodolfo",
       "descripcion": "Abuela de Marco Tulio: Figura inspiradora en la niñez de Rodolfo, que lo motiva a seguir su pasión por la música.",
-      "imagen": "./abuelaa.png"
+      "imagen": "./abuelaa.png",
+      "datos": {
+        "Biografía": "Biografia: Apoyó y motivó a Rodolfo en sus primeros años, inculcándole el amor por la música.",
+        "Influencia": "Influencia: Su apoyo fue crucial para que Rodolfo persiguiera su sueño musical.",
+      },
     },
     {
       "id": 3,
       "NombrePersonaje": "Mateo",
       "descripcion": "Mateo: Adolescente moderno que descubre el legado de Rodolfo y lo lleva adelante fusionando estilos musicales.",
-      "imagen": "./mateoo.png"
+      "imagen": "./mateoo.png",
+      "datos": {
+        "Biografía": "Biografia: Joven apasionado por la música que encuentra inspiración en el legado de Rodolfo.",
+        "Legado": "Legado: Representa la continuidad del impacto de Rodolfo en nuevas generaciones.",
+      },
     },
   ],
 
@@ -56,7 +69,8 @@ export let comic = {
       "Un adolescente, Mateo, encuentra un casete de Rodolfo Aicardi. Fascinado, aprende a tocar sus canciones, fusionando lo clásico con lo moderno. Al final, Mateo canta en una plaza, manteniendo vivo el legado del artista para una nueva generación." ,
      ] 
     }
- ]
+ ],
+
 }
 
 

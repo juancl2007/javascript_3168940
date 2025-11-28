@@ -9,7 +9,7 @@ comic.personajes.forEach(char => {
     const div = document.createElement("div");
     div.classList.add('parrafo');
     div.innerHTML = `
-        <a href="personajes.html?=º${char.id}">
+        <a href="personajes.html?id=${char.id}">
         <img src="${char.imagen}" alt="" class="imagenesPersonajes">    
         <p>${char.descripcion}</p>
         <a href="personajes.html"><button>Ver Personajes</button></a>
