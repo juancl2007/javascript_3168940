@@ -150,6 +150,10 @@ button:active {
     margin-bottom: 50px;
     width: 205px;
 }
+.parrafo1 {
+  text-decoration: none;
+  color: white;
+}
 
 .personajes {
     background-color: #1a1a1a;
