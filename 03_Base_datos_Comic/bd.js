@@ -2,10 +2,11 @@ export let comic = {
   "nombrecomic": "Un legado que resuena en el presente",
   "numeroCapitulos": "3",
   "genero": "historia",
-  "sipnosis": "Narra el viaje de Marco Tulio Aicardi desde su niñez musical en Galeras hasta su transformación en Rodolfo Aicardi, el ícono inmortal de la cumbia y el porro en Medellín, cuya voz se convirtió en la banda sonora de Colombia.La historia culmina con el adolescente moderno, Mateo, quien redescubre su legado a través de un viejo casete y fusiona su música con ritmos actuales, llevando el eco eterno de Aicardi a una nueva generación en las plazas de Medellín. Los personajes clave son Rodolfo/Marco Tulio, su abuela en Galeras, y el joven continuador del legado, Mateo.",
-        
+  "sipnosis": "Narra el viaje de Marco Tulio Aicardi desde su niñez musical en Galeras hasta su transformación en Rodolfo Aicardi, el ícono inmortal de la cumbia y el porro en Medellín, cuya voz se convirtió en la banda sonora de Colombia.La historia culmina con el adolescente moderno, Mateo, quien redescubre su legado a través de un viejo casete y fusiona su música con ritmos actuales, llevando el eco eterno de Aicardi a una nueva generación en las plazas de Medellín. Los personajes clave son Rodolfo/Marco Tulio, su abuela en Galeras, y el joven continuador del legado, Mateo.",  
   "autores": "Juan lopez, juan polo, daniel hicapie",
   "portadaComic": "./fondo1.jpg",
+  "portadaComic2": "./fondo2.png",
+  "portadaComic3": "./fondo3.jpg",
   "año": 2025 ,
    "personajes": [
     {

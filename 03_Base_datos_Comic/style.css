@@ -96,6 +96,30 @@ p {
     mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     background-size: cover;
 }
+.fondo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-size: cover; 
+    display: none;
+}
+.fondo3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.9;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    background-size: cover;
+    display: none;
+}
 
 .capitulos {
     background-color: #1a1a1a;
@@ -217,3 +241,4 @@ footer {
         height: 200px;
     }
 }
+

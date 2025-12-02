@@ -20,10 +20,39 @@
         </nav>
     </header>
 
+    <!-- Carrusel de imágenes -->
+    <div class="carousel-container">
+        <div class="carousel-wrapper">
+            <div class="carousel-slide active" style="background-image: url('imagenes/capitulo1.jpg')"></div>
+            <div class="carousel-slide" style="background-image: url('imagenes/capitulo2.jpg')"></div>
+            <div class="carousel-slide" style="background-image: url('imagenes/capitulo3.jpg')"></div>
+        </div>
+        <div class="carousel-overlay">
+            <h1>Un legado que resuena en el presente</h1>
+            <p>La historia de un ícono de la música colombiana</p>
+            <button class="btn btn-primary">
+                <i class="fas fa-play"></i> Reproducir
+            </button>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-btn prev" onclick="prevSlide()">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+            <button class="carousel-btn next" onclick="nextSlide()">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+        <div class="carousel-indicators">
+            <span class="indicator active" onclick="currentSlide(0)"></span>
+            <span class="indicator" onclick="currentSlide(1)"></span>
+            <span class="indicator" onclick="currentSlide(2)"></span>
+        </div>
+    </div>
+
     <!-- Contenedor principal -->
     <div class="container">
         <!-- Banner principal -->
-        <div class="featured-banner">
+        <div class="featured-banner" style="display: none;">
             <h1>Un legado que resuena en el presente</h1>
             <p>La historia de un ícono de la música colombiana</p>
         </div>
