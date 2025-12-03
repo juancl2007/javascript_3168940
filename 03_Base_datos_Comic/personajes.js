@@ -7,13 +7,16 @@ console.log(comic.personajes);
 const params = new URLSearchParams(window.location.search);
 const id = parseInt (params.get('id') );
 
+
 console.log("el id del personaje es" ,id);
 
 const mipersonaje = comic.personajes.find( char => char.id === id );
 
 const personajeContainer = document.querySelector('.container');
 
-
+if (!id || !mipersonaje) {
+    window.location.href = "index.html";
+}
 
 console.log(personajeContainer);
 

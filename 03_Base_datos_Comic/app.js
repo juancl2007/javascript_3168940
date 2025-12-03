@@ -35,25 +35,27 @@ comic.capitulos.forEach(cap => {
 });
 
 
-const princial = document.querySelector('.titulo-principal');
+const princial = document.querySelector('.tituloPrincipal');
 
 console.log(princial);
 
-comic.princial.forEach(prin => {
-    //crear elementos dinamicamente con javascript
-    const div = document.createElement("div");
-    /* div.classList.add('titulo-principal'); */
-    div.innerHTML = `
-         <div class="img">
-        <img class="fondo" src="${prin.portadaComic}" alt="fondo">
-        <img src="${prin.portadaComic2}" class="fondo2" alt="fondo2">
-        <img src="${prin.portadaComic3}" class="fondo3" alt="fondo3">
-        </div>
+    princial.innerHTML = `
         <div class="contenedor">
-            <h1 class="titulo1" >${prin.nombreComic}</h1>
-            <p>${prin.sipnosis}</p>
+            <h1 class="titulo1" >${comic.nombrecomic}</h1>
+            <p>${comic.sipnosis}</p>
             </div>
     <button class="comienza">Comienza la Historia</button>
     `;
-    princial.appendChild(div);
-});
+
+//carrusel de imagenes en la pagina principal
+let indice = 0;
+
+const carruselDiv = document.querySelector('.carrusel');
+
+function mostrarImagenCarrusel() {
+    carruselDiv.style.backgroundImage = `url(${comic.carrusel[0][`portadaComic${indice + 1}`]})`;
+    indice = (indice + 1) % 3; // Cambia entre 0, 1 y 2
+}
+
+mostrarImagenCarrusel(); 
+setInterval(mostrarImagenCarrusel, 3000); 
