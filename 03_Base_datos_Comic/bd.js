@@ -17,6 +17,7 @@ export let comic = {
       "id": 1,
       "NombrePersonaje": "Rodolfo Aicardi",
       "descripcion": "Rodolfo Aicardi / Marco Tulio: Protagonista, cuya vida y legado musical se narran en el cómic.",
+      "descripcion2": "Marco Tulio Aicardi Rivera, conocido artísticamente como Rodolfo Aicardi, es el protagonista central de esta historia. Nacido en Galeras, Sucre, su vida se transforma al descubrir su pasión por la música desde una edad temprana. A los quince años, se muda a Medellín para perseguir su sueño musical, donde su voz rica y poderosa lo lleva a convertirse en un ícono de la cumbia y el porro. A lo largo del cómic, se exploran sus triunfos, desafíos y el impacto duradero de su música en la cultura colombiana, culminando en un legado que trasciende generaciones.",
       "imagen": "./rodolfo.png",
       "datos": {
         "Biografía": "Biografia: Nació el 23 de mayo de 1946 y falleció el 24 de octubre de 2007.",
@@ -27,7 +28,8 @@ export let comic = {
     {
       "id": 2,
       "NombrePersonaje": "Abuela de Rodolfo",
-      "descripcion": "Abuela de Marco Tulio: Figura inspiradora en la niñez de Rodolfo, que lo motiva a seguir su pasión por la música.",
+      "descripcion": "Abuela de Rodolfo: Figura inspiradora en la niñez de Rodolfo, que lo motiva a seguir su pasión por la música.",
+      "descripcion2": "La abuela de Rodolfo desempeña un papel fundamental en su infancia, siendo una fuente constante de apoyo y motivación. Su amor por la música y su aliento inquebrantable ayudan a moldear el camino de Rodolfo hacia su destino musical. A través de su influencia, se establece una conexión emocional profunda que impulsa al joven a perseguir sus sueños con determinación y pasión.",
       "imagen": "./abuelaa.png",
       "datos": {
         "Biografía": "Biografia: Apoyó y motivó a Rodolfo en sus primeros años, inculcándole el amor por la música.",
@@ -38,6 +40,7 @@ export let comic = {
       "id": 3,
       "NombrePersonaje": "Mateo",
       "descripcion": "Mateo: Adolescente moderno que descubre el legado de Rodolfo y lo lleva adelante fusionando estilos musicales.",
+      "descripcion2": "Mateo es un adolescente contemporáneo que representa la nueva generación que redescubre y honra el legado de Rodolfo Aicardi. Al encontrar un viejo casete de Rodolfo, Mateo se siente inspirado a aprender y tocar sus canciones, fusionando los ritmos clásicos de la cumbia con sonidos modernos. Su viaje musical no solo conecta el pasado con el presente, sino que también simboliza la continuidad del impacto cultural de Rodolfo en las nuevas generaciones.",
       "imagen": "./mateoo.png",
       "datos": {
         "Biografía": "Biografia: Joven apasionado por la música que encuentra inspiración en el legado de Rodolfo.",
@@ -77,7 +80,7 @@ export let comic = {
       "personje": ["rodolfo","mateo"] ,
       "portada": "./cap3.png",
       "descripcion": [ 
-      "Un adolescente, Mateo, encuentra un casete de Rodolfo Aicardi. Fascinado, aprende a tocar sus canciones, fusionando lo clásico con lo moderno. Al final, Mateo canta en una plaza, manteniendo vivo el legado del artista para una nueva generación." ,
+      "Un adolescente, Mateo, encuentra un casete de Rodolfo Aicardi. Fascinado, aprende a tocar sus canciones, fusionando lo clásico con lo moderno. Al final, Mateo canta en una plaza, manteniendo vivo el legado del artista." ,
      ],
      "descripcion2": [
         "El legado de Rodolfo Aicardi se manifiesta en el presente a través de nuevas generaciones, ejemplificado en la historia de Mateo, un adolescente de la Medellín moderna que, al descubrir un viejo casete, queda cautivado por la emoción y la fuerza de su voz. Su investigación sobre Aicardi se convierte en un viaje de autodescubrimiento, conectándolo con la historia de su familia, su país y sus profundas raíces culturales. Al fusionar los ritmos clásicos de la cumbia con sonidos contemporáneos, Mateo honra la obra del maestro, culminando en un emotivo momento en una plaza pública: jóvenes y ancianos se unen para cantar la melodía de Aicardi. Este acto demuestra que la música de Rodolfo Aicardi no ha muerto, sino que se ha transformado en un eco eterno, resonando en el corazón de quienes la escuchan y uniendo pasado y presente en una melodía que se niega a desaparecer."
