@@ -13,10 +13,6 @@ const capituloContainer = document.querySelector('.capitulos');
 
 console.log(capituloContainer);
 
-if (!id || !miCapitulo) {
-    window.location.href = "index.html";
-}
-
 capituloContainer.innerHTML = `
     <h1 class="capitulo1">${miCapitulo.nombre}</h1>
     
@@ -27,17 +23,3 @@ capituloContainer.innerHTML = `
     <p class="parrafo">${miCapitulo.descripcion2}</p>
 </div>
 `;
-
-
-capituloContainer.classList.add('fade-in');
-
-const buttonVolver = document.querySelector('button');
-
-buttonVolver.classList.add('fade-in');
-
-const footer = document.createElement('footer');
-footer.classList.add('fade-in');
-
-footer.innerHTML = `<p class="derechos">© 2025 Comic Rodolfo Aicardi. Trama Vortex</p>`;
-
-document.body.appendChild(footer);
