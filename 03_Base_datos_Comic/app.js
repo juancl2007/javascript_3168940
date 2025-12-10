@@ -8,10 +8,12 @@ comic.personajes.forEach(char => {
     //crear elemntos dinamicamente con javascript
     const div = document.createElement("div");
     div.classList.add('parrafo');
+    div.classList.add('fade-in');
     div.innerHTML = `
         <img src="${char.imagen}" alt="" class="imagenesPersonajes">    
-        <p>${char.descripcion}</p>
-        <a href="personajes.html?id=${char.id}"><button>Ver Personajes</button></a>
+        <p class="descripcion">${char.descripcion}</p>
+        <a href="personajes.html?id=${char.id}">
+        <button class="button-personajes">Ver Personajes</button></a>
         
     `;
     personajes.appendChild(div);
@@ -25,6 +27,7 @@ comic.capitulos.forEach(cap => {
     //crear elementos dinamicamente con javascript
     const div = document.createElement("div");
     div.classList.add('cap1' , 'cap2' , 'cap3');
+    div.classList.add('fade-in');
     div.innerHTML = `
         <h2>${cap.nombre}</h2>
         <img src="${cap.portada}" alt="" class="imagenCapitulos">
@@ -37,6 +40,7 @@ comic.capitulos.forEach(cap => {
 
 const princial = document.querySelector('.tituloPrincipal');
 
+princial.classList.add('fade-in');
 console.log(princial);
 
     princial.innerHTML = `
@@ -44,13 +48,14 @@ console.log(princial);
             <h1 class="titulo1" >${comic.nombrecomic}</h1>
             <p>${comic.sipnosis}</p>
             </div>
-    <button class="comienza">Comienza la Historia</button>
+    <a href="#capitulos"><button class="comienza">Comienza la Historia</button></a>
     `;
 
 //carrusel de imagenes en la pagina principal
 let indice = 0;
 
 const carruselDiv = document.querySelector('.carrusel');
+carruselDiv.classList.add('fade-in');
 
 function mostrarImagenCarrusel() {
     carruselDiv.style.backgroundImage = `url(${comic.carrusel[0][`portadaComic${indice + 1}`]})`;
@@ -59,3 +64,14 @@ function mostrarImagenCarrusel() {
 
 mostrarImagenCarrusel(); 
 setInterval(mostrarImagenCarrusel, 3000); 
+
+//Animaciones con javascript
+const header = document.querySelector('header');
+
+header.classList.add('fade-in');
+
+const footer = document.querySelector('footer');
+
+
+footer.classList.add('fade-in');
+

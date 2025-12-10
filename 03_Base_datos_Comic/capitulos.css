@@ -1,5 +1,7 @@
 body {
-    background-color: black;
+    background-image: url("rojas.jpg");
+    background-size: cover;
+    background-attachment: fixed;
     color: white;
     font-family: Arial, sans-serif;
     margin: 20px;
@@ -15,15 +17,14 @@ h1 {
 .capitulo1 {
     font-size: 80px;
     margin: 0px;
-    margin-top: 100px;
     position: relative;
     z-index: 1;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .parrafo {
     text-align: center;
-    margin: 20px auto;
-    width: 60%;
+    margin: 10px auto;
+    width: auto;
     font-size: 25px;
     line-height: 1.6;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -36,15 +37,17 @@ video {
     border-radius: 10px;
 }
 .capitulos {
-    background-color: #2a2a2a;
+    background-color: #000000;
     opacity: 0.9;
     padding: 50px;
-    margin: 150px;
-    margin-top: 10px;
+    margin: 100px;
+    margin-top: 100px;
     border-radius: 8px;
+    transform: translateY(-8px);
+    box-shadow: 0 26px 46px rgba(255, 0, 0, 0.7);
 }
 footer {
-    background-color: #373636;
+    background-color: #0a0a0a;
     color: #ffffff;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -52,6 +55,7 @@ footer {
     padding: 15px;
     border-radius: 5px;
 }
+
 button {
     background-color: #ff0000;
     color: white;
@@ -60,4 +64,87 @@ button {
     border-radius: 5px;
     cursor: pointer;
     font-size: 16px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.fade-in {
+    animation: fadeIn 2s ease-in;
+}
+
+/* Responsive media queries for capitulos page */
+@media (max-width: 992px) {
+    body {
+        margin: 12px;
+        background-attachment: scroll;
+    }
+    .capitulo1 {
+        font-size: 56px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    .parrafo {
+        font-size: 20px;
+        margin: 8px auto;
+        width: 95%;
+    }
+    .capitulos {
+        padding: 30px;
+        margin: 40px 12px;
+    }
+    video {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .capitulo1 {
+        font-size: 40px;
+    }
+    .parrafo {
+        font-size: 18px;
+    }
+    .capitulos {
+        padding: 20px;
+        margin: 20px 8px;
+        transform: none;
+        box-shadow: none;
+    }
+    button {
+        width: 100%;
+        padding: 12px;
+        box-sizing: border-box;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+    .capitulo1 {
+        font-size: 28px;
+    }
+    .parrafo {
+        font-size: 16px;
+        margin: 6px;
+    }
+    .capitulos {
+        padding: 12px;
+        margin: 12px 6px;
+    }
+    video {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .fade-in, .capitulos {
+        animation: none;
+        transition: none;
+        transform: none;
+    }
 }

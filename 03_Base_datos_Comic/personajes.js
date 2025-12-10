@@ -22,10 +22,9 @@ console.log(personajeContainer);
 
 personajeContainer.innerHTML = `
     <a href="index.html"><button>Volver</button></a>
-    <h1 class="TituloP">Personajes</h1>
+    <h1 class="TituloP">${mipersonaje.NombrePersonaje}</h1>
         <div class="personaje1">
-            <h2>${mipersonaje.NombrePersonaje}</h2>
-            <p>${mipersonaje.descripcion}</p>
+            <p>${mipersonaje.descripcion2}</p>
                 <div class="contenedor-musical" ${mipersonaje.id === 1 ? "" : "style='display:none;'"} >
                     <h2>Sus Mejores Canciones</h2>
                     <a href="https://www.youtube.com/watch?v=BOjuL8WxnE0&list=RDBOjuL8WxnE0&start_radio=1"><img src="youtube.png" alt="cancion" class="musical"></a>
@@ -53,3 +52,7 @@ personajeContainer.innerHTML = `
             </div>
 `;
 
+personajeContainer.classList.add('fade-in');
+
+const footer = document.querySelector('footer');
+footer.classList.add('fade-in');
